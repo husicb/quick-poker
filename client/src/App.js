@@ -73,7 +73,7 @@ const getSuitSymbol = (suit) => {
   }
 };
 
-const API_URL = 'http://localhost:5001';
+const API_URL = 'https://quick-poker.onrender.com';
 let socket;
 
 function App() {
