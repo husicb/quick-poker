@@ -7,7 +7,7 @@ const cors = require('cors');
 
 const app = express();
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: ["http://localhost:3000", "https://chipper-belekoy-382646.netlify.app"],
   methods: ["GET", "POST"],
   credentials: true
 }));
@@ -16,7 +16,7 @@ app.use(express.json());
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: ["http://localhost:3000", "https://chipper-belekoy-382646.netlify.app"],
     methods: ["GET", "POST"],
     credentials: true
   }
