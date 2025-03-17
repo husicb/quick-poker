@@ -138,6 +138,7 @@ function App() {
     return () => {
       socket.disconnect();
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   
   // Save player name when it changes
