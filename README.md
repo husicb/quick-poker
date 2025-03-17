@@ -67,6 +67,10 @@ A real-time multiplayer poker game that allows users to quickly create and join 
 3. Click "I'm Ready" when everyone has joined
 4. Play Texas Hold'em!
 
+## Disclaimer
+
+This software is provided for educational and entertainment purposes only. The author is not responsible for any misuse, including real-money gambling. Users should comply with all applicable laws.
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE). 
